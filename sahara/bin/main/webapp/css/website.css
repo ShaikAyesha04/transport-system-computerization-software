@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styling the navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+/* Navbar items */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+/* Navbar links */
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hover effect for the links */
+.navbar ul li a:hover {
+   color:blue;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Dropdown content styling */
+
+
+/* Hover effect for dropdown items */
+
+/* Display the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Drop-down button styling */
+
+.dropdown-content{
+    display:block;
+    position: absolute;
+    left: 0;
+    top:100%;
+    background-color: #333;
+
+}
+.dropdown-content ul
+{
+    display: block;
+
+
+}
+
+.dropdown-content ul li
+{
+    width:130px;
+    
+}
+
+.dropdown-content 
+{
+    display: none;
+}
+
+.dropdown-content ul li a
+{
+    font-size: 15px;
+    padding-left: 0px;
+    padding-top: 15px;
+    
+}

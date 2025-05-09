@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/LogU.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2><hr>
+        <form  method="post" action="LogUser">
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-group1">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <p class="para">Don't have an account? <a href="SignU.html">sign up</a></p>
+            <p class="para1"><a href="forgetU.html">Forget Password?</a></p>
+            <div class="login-btn">
+                <button type="submit">Sign in</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

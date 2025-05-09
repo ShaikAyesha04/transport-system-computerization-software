@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Keania+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Keania+One&family=Signika:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Keania+One&family=Signika:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/truck.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+nav .logo
+{
+    display: flex;
+    align-items: center;
+}
+nav .logo img
+{
+    margin-left: 15px;
+    margin-top:15px;
+    border-radius: 40px;
+}
+nav .logo h1
+{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:12.3px;
+    color:white;
+}
+nav .logo h1 span
+{
+    font-size: 40px;
+}
+
+.themain
+{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links ul
+{
+    margin-left:450px;
+}
+.nav-links ul li
+{
+    list-style:none;
+    display: inline-block;
+    position:relative;
+    margin-top:15px;
+    margin-left:25px;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+
+}
+nav ul .login
+{
+    font-size: 20px;
+    margin-right:38px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border:2px solid orange;
+    background: transparent;
+    border-radius:18px;
+    color:white;
+    font-weight: bold;
+}
+nav ul .login:hover
+{
+    background-color: orange;
+    transition:0.8s;
+}
+.nav-links ul li::after
+{
+    content:'';
+    width:0%;
+    height:3px;
+    background:orange;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width:100%;
+}
+.mid-text
+{
+    text-align: center;
+    padding-top:15%;
+    color: white;
+}
+section .mid-text h1
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    font-weight: bolder;
+}
+section .mid-text p
+{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top:20px;
+    font-weight:400;
+    font-size: 25px;
+}
+
+.btnlogin
+{
+    margin-top:30px;
+    color:white;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:transparent;
+    border:2px solid orange;
+    padding:18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnlogin:hover
+{
+    background-color: orange;
+    transition:1s;
+}
+
+.split1 
+{
+   width:50%;
+   height: 100vh;
+   background-color:black;
+   margin-left:3px;
+   margin-top:3px
+   
+}
+.split1
+{
+background-image: url(../images/blacktruck.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.split2
+{
+    width:50%;
+   height: 100vh;
+   background-color:black;
+   margin-top:3px;
+   margin-right:3px;
+   margin-bottom:3px;
+}
+.about
+{
+    display: flex;
+}
+
+.split2 h1
+{
+    color:white;
+    text-align:center;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+.split2 h1 span
+{
+    color:orange;
+}
+
+.split2 h2
+{
+    color:white;
+    padding-left:20px;
+    padding-top:20px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size:30px;
+}
+.split2 h2 span
+{
+    color:rgb(180, 15, 15);
+}
+.split2 p
+{
+    color:white;
+}
+.split2 .p1
+{
+    margin-top:20px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:23px;
+    text-align: center;
+}
+.split2 .p2
+{
+    margin-top:20px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:24px;
+    text-align: center;
+}
+.split2 button
+{
+    margin-top: 30px;
+    padding:15px 18px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    border:2px solid orange;
+    background:transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.split2 button:hover
+{
+    background-color: orange;
+    transition:1s;
+}
+.services
+{
+    width:100%;
+    margin:auto;
+    height: 110vh;
+    background-color: rgba(226, 219, 219, 0.863);
+}
+.heading h1
+{
+    
+    text-align: center;
+    padding-top:3%;
+    font-size: 35px;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+
+.text h3
+{
+    width:80%;
+    margin:auto;
+    padding-top: 3%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 3%;
+}
+
+.trucks
+{
+    margin-top: 5%;
+    display:flex;
+    width:98%;
+    justify-content: space-between;
+    margin:auto;
+    text-align: center;
+   
+}
+
+.small
+{
+    flex-basis: 31%;
+    background: rgb(189, 183, 183);
+    border-radius: 12px;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-sizing:border-box;
+    padding:20px;
+}
+.medium
+{
+    flex-basis: 31%;
+    background: rgb(189, 183, 183);
+    border-radius: 12px;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-sizing:border-box;
+    padding:20px;
+    
+}
+.flat
+{
+    flex-basis: 31%;
+    background: rgb(189, 183, 183);
+    border-radius: 12px;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-sizing:border-box;
+    padding:20px;
+}
+.heavy
+{
+    flex-basis: 31%;
+    background: rgb(189, 183, 183);
+    border-radius: 12px;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-sizing:border-box;
+    padding:20px;
+}
+
+.trucks h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.trucks p span
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.trucks p 
+{
+    font-family: "Inter", sans-serif;
+}
+
+.small:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+}
+.medium:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+}
+.heavy:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+}
+.flat:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+}
+
+.contact
+{
+    width: 100%;
+    height:100vh;
+    background-color: rgba(20, 19, 19, 0.945);
+}
+
+.head hr
+{
+    width: 80%;
+    margin:auto;
+    margin-top:5px;
+}
+
+.head h1
+{
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 40px;
+}
+
+.map
+{
+    margin-left:40px;
+    margin-top: 50px;
+}
+.final
+{
+    display:flex;
+}
+
+.first
+{
+    display: flex;
+}
+
+.office
+{
+    margin-top:80px;
+    margin-left:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+.office h1
+{
+    margin-bottom:20px;
+    font-size: 25px;;
+}
+.office h3
+{
+    font-size: 15px;
+}
+.links
+{
+   
+    margin-left:70px;
+    margin-top: 40px; 
+}
+
+.links h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    margin-bottom:20px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.links ul li
+{
+    list-style: none;
+    padding: 4px;
+}
+.links ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.links ul li a:hover 
+{
+    text-decoration: underline;
+
+}
+.faqs
+{
+    
+    margin-left:80px;
+    margin-top: 40px; 
+}
+.faqs h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    margin-bottom:20px;
+    font-size: 25px;
+    margin-top: 40px;
+   
+}
+
+.faqs ul li
+{
+    list-style: none;
+    padding: 4px;
+}
+.faqs ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.faqs ul li a:hover 
+{
+    text-decoration: underline;
+
+}
+
+
+#social-media {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 166, 0, 0.336);
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left:40px;
+}
+
+#social-media h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Remove underline from icons */
+.social-icon {
+    font-size: 40px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icon i {
+    pointer-events: none;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Instagram */
+.social-icon.instagram {
+    background-color: #E4405F;
+}
+
+.social-icon.instagram:hover {
+    background-color: #c13584;
+}
+
+/* Facebook */
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.facebook:hover {
+    background-color: #2d4373;
+}
+
+/* LinkedIn */
+.social-icon.linkedin {
+    background-color: #0077B5;
+}
+
+.social-icon.linkedin:hover {
+    background-color: #005582;
+}
+
+/* Twitter/X */
+.social-icon.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-icon.twitter:hover {
+    background-color: #1991DB;
+}
+
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Button Styles */
+.modal-content .btn {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.customer-btn {
+    background-color: #28a745;
+}
+
+.manager-btn {
+    background-color: #007bff;
+}
+
+.supervisor-btn {
+    background-color: #ffc107;
+}
+
+.customer-btn:hover {
+    background-color: #218838;
+}
+
+.manager-btn:hover {
+    background-color: #0056b3;
+}
+
+.supervisor-btn:hover {
+    background-color: #e0a800;
+}
+
+.modal-content .btn:hover {
+    transform: translateY(-3px);
+}
+.customer-btn a
+{
+    text-decoration: none;
+    color:white;
+}

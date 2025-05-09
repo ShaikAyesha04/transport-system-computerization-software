@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="css/signU.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Signup</h2><hr>
+        <form method="post" action="RegUser1"> <!-- Ensure to replace <your_web_app> with your actual app name -->
+            <div class="input-group">
+                <label for="firstname">Full Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your full name" required>
+            </div>
+           
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            </div>
+
+            <p class="para">Already have an account? <a href="LogU.html">sign in</a></p>
+
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
